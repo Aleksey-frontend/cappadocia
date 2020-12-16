@@ -1,0 +1,581 @@
+/* -------Media Queries-------- */
+/* ---------------------------------------------- */
+@media (max-width: 1820px) {
+	.price {
+	  background-position-x: 95%;
+	  background-position-y: 14%;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 1670px) {
+	.route-info {
+	  padding-left: 200px;
+	}
+	.applicat-inner {
+	  padding-left: 350px;
+	}
+	.footer-wraper {
+	  padding-left: 0;
+	  margin-left: 50%;
+	  transform: translateX(-50%);
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 1570px) {
+	.hotel-info {
+	  width: 600px;
+	  margin-left: 50px;
+	}
+	.hotel-wraper {
+	  max-width: 1201px;
+	  margin-right: 0;
+	  margin-left: 0;
+	}
+	.price {
+	  background-position-x: 95%;
+	  background-position-y: 5%;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 1500px) {
+	.route-info {
+	  padding-left: 120px;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 1440px) {
+	.attract-slider {
+	  max-width: 840px;
+	}
+	.attract-info {
+	  padding: 25px 0 0 30px;
+	}
+	.attract-info__content {
+	  margin-bottom: 35px;
+	}
+	.route-info {
+	  padding-left: 80px;
+	}
+	.applicat-inner {
+	  padding-left: 170px;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 1370px) {
+	.route-info {
+	  padding-left: 20px;
+	}
+	.price-list {
+	  margin-left: 130px;
+  	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 1320px) {
+	.route-slider {
+	  max-width: 920px;
+	}
+	.route-slider img{
+	  
+	  max-width: 100%;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 1280px) {
+	.header-top {
+	  padding-left: 40px !important;
+	  padding-right: 40px !important;
+	}
+  
+	.header-title {
+	  max-width: 809px !important;
+	  font-size: 200px !important;
+	}
+	.header-title span {
+	  font-size: 50px !important;
+	  right: 0 !important;
+	}
+	.attract-wraper {
+	  flex-direction: column;
+	}
+	.attract-slider {
+	  margin: 0 auto;
+	  max-width: 960px;
+	}
+	.attract-slider img {
+	  max-width: 100%;
+	}
+	.attract-info {
+	  padding: 20px 0 0 0;
+	  margin: 0 auto;
+	}
+	.attract-title {
+	  margin: 170px 0 100px 50px;
+	}
+	.route {
+	  padding-top: 170px;
+	  flex-direction: column;
+	}
+	.route-info__item{
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+	.route-info__item-content {
+	  padding-bottom: 40px;
+	  margin-right: 20px;
+	}
+	.route-btn {
+	  margin-top: 0px;
+	  margin: 0 auto;
+	  margin-bottom: 30px;
+	}
+	.route-slider {
+	  max-width: 960px;
+	  margin: 0 auto;
+	}
+	.applicat-inner {
+	  padding-left: 40px;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 1150px) {
+	.hotel {
+	  padding-top: 150px;
+	}
+	.hotel-title {
+	  margin-left: 50%;
+	  transform: translateX(-50%);
+	  margin-bottom: 100px;
+	}
+	.hotel-info {
+	  max-width: 600px;
+	  margin: 0 auto;
+	  margin-top: 30px;
+	}
+	.hotel-info__content {
+	  margin-bottom: 30px;
+	}
+	.hotel-wraper{
+	  flex-direction: column;
+	}
+	.hotel-images {
+	  max-width: 500px;
+	  margin: 0 auto;
+	}
+	.hotel-images img{
+	  max-width: 100%;
+	}
+	.price-list {
+	  margin-left: 70px;
+	}
+	.price-title {
+	  margin-left: 70px;
+	  margin-bottom: 115px;
+	}
+	.price-list__included {
+	  margin-right: 40px;
+	}
+	.applicat-images {
+	  margin-left: 65px;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 1100px){
+	.applicat {
+	  padding-bottom: 100px;
+	}
+	.price{
+	  padding: 100px 0;
+	}
+	.applicat-wraper {
+	  display: block;
+	}
+	.applicat-inner {
+	  max-width: 100%;
+	  padding-left: 0;
+	}
+	.form-group{
+	  max-width: 300px;
+	}
+	form{
+	  text-align: center;
+	}
+	.form-group {
+	  margin: 0;
+	  max-width: 300px;
+	  margin: 0 auto;
+	}
+	.form-control {
+	  width: 84%;
+	}
+	.btn-primary {
+	  margin-left: 0;
+	  margin-bottom: 20px;
+	}
+	.applicat-images {
+	  margin-left: 0;
+	}
+	.applicat-images img {
+	  width: 100%;
+	}
+	.applicat-date{
+	  width: 281px;
+	  display: block;
+	  margin: 0 auto;
+	}
+	.applicat-date span {
+	  right: 13px;
+	}
+	.applicat-price {
+	  display: block;
+	  width: 150px;
+	  margin: 0 auto;
+	  margin-bottom: 50px;
+	}
+	.applicat-price span {
+	  right: 2px;
+	}
+	.footer-contact {
+	  margin: 0 auto;
+	}
+	.footer-wraper {
+	  flex-direction: column;
+	}
+	.footer-title {
+	  margin-left: 0;
+	  font-size: 70px;
+	  width: 100%;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 990px) {
+	.attract-slider {
+	  max-width: 100%;
+	}
+	.attract-info {
+	  padding: 20px;
+	}
+	.route-slider {
+	  max-width: 100%;
+	}
+	.price {
+	  padding: 150px 0;
+	  background-image: none;
+	}
+	.price-title {
+	  margin-left: 50%;
+	  transform: translateX(-50%);
+	  margin-bottom: 100px;
+	}
+	.price-list__included {
+	  max-width: 390px;
+	  margin-right: 70px;
+	}
+	.price-list__not-included {
+	  max-width: 328px;
+	}
+	.price {
+	  padding: 70px 0;
+	}
+	.footer-wraper {
+	  margin-left: 0;
+	  transform: translateX(0);
+	}
+	.footer-title {
+	  display: inline-block;
+	  text-align: center;
+	}
+	.footer {
+	  background-position-x: 56%;
+	  padding: 96px 0 500px 0;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 860px) {
+	  .header-top .menu ul li {
+	  margin-right: 30px;
+	}
+	.header-title {
+	  max-width: 615px !important;
+	  font-size: 150px !important;
+	}
+	.header-title span {
+	  font-size: 40px !important;
+	  right: 5px !important;
+	}
+	.price-list {
+	  margin-left: 30px;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 760px) {
+	.price-list{
+	  display: block;
+	}
+	.price-list__not-included{
+	  max-width: 390px;
+	}
+	.price-list__included {
+	  max-width: 100%;
+	  margin-right: 70px;
+	}
+	.footer {
+	  background-position-y: 56%;
+	  padding: 96px 0 500px 0;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 680px) {
+	.header{
+	  padding-bottom: 400px;
+	}
+	.header-title {
+	  max-width: 493px !important;
+	  font-size: 120px !important;
+	}
+	.header-title span {
+	  font-size: 35px !important;
+	  right: 5px !important;
+	  bottom: -10px !important;
+	}
+	.header-top{
+	  flex-direction: column;
+	}
+	.menu{
+		margin: 0 auto;
+	}
+	.header-tel{
+	  margin: 0 auto;
+	  margin-top: 14px;
+	}
+	.attract-title {
+	  margin: 150px 0 90px 50px;
+	}
+	.route {
+	  padding-top: 160px;
+	}
+	.hotel {
+	  padding-top: 100px;
+	}
+	.hotel-title {
+	  margin-bottom: 40px;
+	}
+	.hotel-info {
+	  max-width: 100%;
+	  margin-left: 0;
+	}
+   
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 595px) {
+	.hotel-info__images .hotel-info__images-1 {
+	  margin-right: 0;
+	  margin-bottom: 5px;
+	}
+	.hotel-info__images .hotel-info__images-2 {
+	  margin-bottom: 5px;
+	}
+	.hotel-info__images .hotel-info__images-3 {
+	  margin-right: 0;
+	}
+	.hotel-info__images img{
+	  width: 100%;
+	  margin-left: 50%;
+	  transform: translateX(-50%);
+	}
+	.hotel-info__images .hotel-info__images-3 {
+	  margin-bottom: 5px;
+	}
+	.hotel-info__content{
+	  max-width: 100%;
+	  padding-right: 20px;
+	  padding-left: 20px;
+	}
+	.hotel-info__item-text {
+	  max-width: 100%;
+	}
+	
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 566px) {
+	.hotel-info__images {
+	  width: 100% !important;
+	}
+	.hotel-info__images img {
+	  max-width: 100%;
+	}
+	.hotel-info__images img {
+	  width: 100%;
+	  margin-left: 0;
+	  transform: translateX(0);
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 520px){
+	.header{
+	  padding-bottom: 380px;
+	}
+	.header-title {
+	  max-width: 413px !important;
+	  font-size: 100px !important;
+	}
+	.header-title span {
+	  font-size: 30px !important;
+	}
+	.route {
+	  padding-top: 140px;
+	}
+	.hotel {
+	  padding-top: 70px;
+	}
+	.hotel-images {
+	  max-width: 100%;
+	  margin: 0 auto;
+	}
+	.hotel-wraper {
+	  max-width: 100%;
+	}
+	.footer-title {
+	  font-size: 58px;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 470px) {
+	.title {
+	  font-size: 85px;
+	}
+	.title span {
+	  font-size: 21px;
+	  bottom: -8px;
+	  right: -72px;
+	}
+	.attract-info__content {
+	  margin-bottom: 25px;
+	  font-size: 17px;
+	}
+	.attract-title {
+	  margin: 120px 0 70px 30px;
+	}
+	.route {
+	  padding-top: 100px;
+	}
+	.applicat-date span {
+	  right: 38px;
+	}
+	.applicat-price span {
+	  right: 20px;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 430px) {
+	.header{
+	  padding-bottom: 350px;
+	}
+	.header-title {
+	  max-width: 330px !important;
+	  font-size: 80px !important;
+	}
+	.header-title span {
+	  font-size: 27px !important;
+	}
+	.header-top .menu ul li {
+	  margin-right: 20px;
+	}
+	.title {
+	  font-size: 70px;
+	}
+	.title span {
+	  font-size: 19px;
+	  right: -90px;
+	}
+	.route {
+	  padding-top: 70px;
+	}
+	.applicat-date span {
+	  right: 82px;
+	}
+	.applicat-price span {
+	  right: 45px;
+	}
+}
+  /* ---------------------------------------------- */
+  @media (max-width: 390px) {
+	.title {
+	  font-size: 63px;
+	}
+	.title span {
+	  font-size: 17px;
+	  right: -68px;
+	  bottom: -5px;
+	}
+	.attract-title {
+	  margin: 180px 0 50px 20px;
+	}
+	.route {
+	  padding-top: 40px;
+	}
+	.applicat-date span {
+	  right: 102px;
+	}
+	.applicat-price span {
+	  right: 56px;
+	}
+	.form-title {
+	  font-size: 21px;
+	  margin-bottom: 30px;
+	}
+	.footer-contact__images {
+	  max-width: 300px;
+	}
+	.footer-contact__title {
+	  font-size: 75px;
+	}
+	.footer-contact__tel {
+	  font-size: 14px;
+	  top: 163px;
+	}
+	.footer-contact__mail {
+	  font-size: 15px;
+	  top: 194px;
+	}
+	.footer-contact__icons {
+	  font-size: 18px;
+	  top: 236px;
+	}
+  }
+  /* ---------------------------------------------- */
+  @media (max-width: 360px) {
+	.header{
+	  padding-bottom: 300px;
+	}
+	.header-title {
+	  max-width: 306px !important;
+	  font-size: 70px !important;
+	}
+	.header-title span {
+	  font-size: 25px !important;
+	}
+	.header-top .menu ul li {
+	  margin-right: 10px;
+	}
+	.header-top .menu ul li a {
+	  font-size: 20px;
+	}
+	.header-top .header-tel a {
+	  font-size: 20px;
+	}
+	.title {
+	  font-size: 60px;
+	}
+	.title span {
+	  font-size: 15px;
+	  right: -60px;
+	  bottom: -4px;
+	}
+	.applicat-date span {
+	  right: 114px;
+	}
+	.applicat-price span {
+	  right: 60px;
+	}
+}
+
